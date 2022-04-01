@@ -2,37 +2,84 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main{
+  width : 80vw;
+  margin: auto;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+}
+h1.Main{
+  font-size: 48px;
+}
+h2{
+  font-size: 32px;
+  font-weight: 100;
+  font-family: adobe-garamond-pro;
+}
+p{
+  font-size: 24px;
+  font-family: adobe-garamond-pro;
+}
+p.Main{
+  color: rgba(26,26,26,.7);
+  font-size: 18px;
+  line-height: 1.6em;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Menu{
+  position: fixed;
+  padding-left: 10vw;
+  max-width: 10vw;
+  text-align: left;
 }
+/*.MenuHeader{
+  font-family: adobe-garamond-pro;
+  font-size: 22px;
+  color: #00746b;
+}*/
+/*.MenuButton{
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(26,26,26,.4);
+}
+.MenuButton:hover{
+  color: black;
+}*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.each-slide > div {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+/*{background:"#FF6666", height:"3.5vw", width:"7vw", borderRadius:"1vw", border:"none", color:"white", fontSize:"20px"}*/
+button{
+  background: #FF6666;
+  height: 3.5vw;
+  width:  7vw;
+  border-radius: 1vw;
+  border: none;
   color: white;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover{
+  background: #FF8888;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:active{
+  background: #AA8888;
 }
